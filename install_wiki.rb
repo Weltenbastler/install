@@ -108,7 +108,7 @@ if ARGV.count > 0
 else
   path = ask_for_input("Where do you want to create the project?")
   abort("Path required") if path.empty?
-  options[:path] = path
+  options[:path] = File.expand_path(path, __dir__)
   
   repo = ask_for_input("What is your remote Git repository address?")
   guard_repo_exists(repo, options)
