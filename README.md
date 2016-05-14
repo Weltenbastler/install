@@ -2,7 +2,9 @@
 
 **Requires ruby 2.0 or newer.**
 
-## Interactive
+You can use the installation script to set up a [nanoc](http://nanoc.ws/)-based wiki that publishes to GitHub Pages on your computer in no time.
+
+## Option 1: Interactive (recommended)
 
 Execute this command in your Terminal and follow the instructions:
 
@@ -10,7 +12,7 @@ Execute this command in your Terminal and follow the instructions:
 
 This will create an empty project and push dummy contents to your repository and its `gh-pages` branch.
 
-## Download first
+## Option 2: Download first
 
 [Download the script](https://raw.githubusercontent.com/Weltenbastler/install/master/install_wiki.rb) and execute it like so:
 
