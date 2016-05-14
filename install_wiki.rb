@@ -31,7 +31,7 @@ def guard_empty_dir(options)
   abort("Directory not empty: #{path}") unless Dir["#{path}/*"].empty?
 end
 
-private def execute(command, options, error_msg = "Aborting")
+def execute(command, options, error_msg = "Aborting")
   success = Open3.popen3(command, :chdir => options[:path]) do |stdin, stdout, stderr, wait_thr|
     stdin.close
 
