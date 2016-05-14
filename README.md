@@ -1,10 +1,12 @@
 # Usage
 
+**Requires ruby 2.1 or newer.**
+
 ## Interactive
 
 Execute this command in your Terminal and follow the instructions:
 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Weltenbastler/install/master/install_wiki.rb)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Weltenbastler/install/master/install_wiki.rb)"
 
 This will create an empty project and push dummy contents to your repository and its `gh-pages` branch.
 
