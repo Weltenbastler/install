@@ -1,6 +1,6 @@
 # Usage
 
-**Requires ruby 2.1 or newer.**
+**Requires ruby 2.0 or newer.**
 
 ## Interactive
 
